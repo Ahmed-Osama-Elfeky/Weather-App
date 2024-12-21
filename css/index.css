@@ -105,18 +105,18 @@ small{
     font-weight: 300;
 
 }
-.nav a{
+.navbar-nav a{
     color: #ffffff;
 }
 
-.nav a.active{
-    color: #009AD8;
+.navbar-nav a.active{
+    color: #009AD8 !important;
     border: #009AD8 1px solid;
     border-radius: 50px;
 }
 
 
-.nav a:hover{
+.navbar-nav a:hover{
     color: #009AD8;
     border: #009AD8 1px solid;
     border-radius: 50px;
