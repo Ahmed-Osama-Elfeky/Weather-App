@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+
+
+
+
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <nav class="navbar py-5 ">
+        <div class="container">
+            <a class="navbar-brand d-flex gap-2" href="#">
+                <img class="my-2 w-100" src="images/logo.png" alt="Cloud" width="30" height="24">
+                <div class="d-flex flex-column">
+                    <h1 class="nav-title">Weather</h1>
+                    <small>tagline goes here </small>
+                </div>
+
+            </a>
+            <ul class="nav  ">
+                <li class="nav-item px-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Live cameras</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link " aria-disabled="true">Photos</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link " aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <form class="find-location">
+                <input class="text" type="text" id="search" placeholder="Find your location...">
+                <input class="button" type="button" value="Find" id="submit">
+
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="weather-table ">
+        <div class="weather-container">
+            <div class="weather-details" id="weather">
+
+                <div class="row ">
+
+                    <div class="col-lg-4  ">
+
+                        <div class="weather  content-color text-light px-2  ">
+                            <div class="weather-header text-center header-color text-light " id="today">
+
+                                <div class="date text-center"></div>
+                            </div>
+                            <div class="vh-75 d-flex flex-column">
+                                <div class="weather-content px-3   " id="current">
+                                    <div class="location text-light py-3"></div>
+                                    <div class="weather-degree py-2 ">
+
+                                        <div class="degree py-2">
+
+
+                                        </div>
+
+                                        <div class="icon py-2">
+                                            <img class="w-auto weather-icon " src="" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="status "></div>
+                                </div>
+                                <div class="icons py-5 d-flex  align-content-center justify-content-between  ">
+                                    <span class="d-flex gap-3">
+                                        <img class="w-auto" src="images/icon-umberella.png" alt="">
+                                        <span class="humidity"></span>
+                                    </span>
+                                    <span class="d-flex gap-3">
+                                        <img class="w-auto" src="images/icon-wind.png" alt="">
+                                        <span class="wind"></span>
+                                    </span>
+                                    <span class="d-flex gap-3">
+                                        <img class="w-auto" src="images/icon-compass.png" alt="">
+
+                                        <span class="region"> </span>
+                                    </span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="col-lg-4  text-center">
+
+                        <div class="weather  text-light head-color  ">
+                            <div class="weather-header " id="today">
+                                <div class="dayTwo"> </div>
+
+                            </div>
+                            <div class="weather-content text-color vh-75 d-flex flex-column justify-content-center"
+                                id="current">
+                                <div class="icon py-3">
+                                    <img class="w-auto m-auto weather-iconTwo " src="" alt="">
+                                </div>
+
+                                <div class="weather-degree py-3">
+
+                                    <div class="dayTwoMax-temp">
+
+
+                                    </div>
+                                    <div class="dayTwoMin-temp">
+
+
+                                    </div>
+
+
+
+                                </div>
+                                <div class="dayTwoStatus py-3"> </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="col-lg-4  text-center ">
+
+                        <div class="weather text-light header-color  ">
+                            <div class="weather-header " id="today">
+                                <div class="dayThree"> </div>
+
+                            </div>
+                            <div class="weather-content content-color vh-75 d-flex flex-column justify-content-center "
+                                id="current">
+                                <div class="icon py-3">
+                                    <img class="weather-iconThree w-auto m-auto" src="" alt="">
+                                </div>
+                                <div class="weather-degree py-3">
+
+                                    <div class="dayThreeMax-temp">
+
+
+
+                                    </div>
+                                    <div class="dayThreeMin-temp">
+
+
+                                    </div>
+
+
+
+                                </div>
+                                <div class="dayThreeStatus py-3"> </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<br><br><br><br><br><br>
+
+<footer >
+    <div class="footer-content  ">
+        <div class="container ">
+            <div class="row pt-5  ">
+                <div class="col-md-8 ">
+                    <form class="subscripe">
+                        <input class="text" type="email" id="Email" placeholder="Enter your email to subscripe...">
+                        <input class="button" type="button" value="Subscripe" id="submit">
+
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1 py-3">
+                    <div class="social-media">
+                        <a href="#" class="social-media-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-media-icon"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-media-icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="social-media-icon"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="colophon mt-0 text-center">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+
+        </div>
+    </div>
+</footer>
+    
+
+
+
+
+   
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

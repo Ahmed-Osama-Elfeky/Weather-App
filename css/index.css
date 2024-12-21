@@ -1,0 +1,194 @@
+* , *::after , *::before {
+
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    display: block;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    
+        color: #bfc1c8;
+        font-family: "Roboto", "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.5;
+        background: #1e202b;
+    
+}
+
+
+nav{
+    background-color: #1E202B;
+}
+.content{
+    background-color: #1E202B;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+.find-location , .subscripe{
+    position: relative;
+    margin-bottom: 70px;
+}
+.find-location input[type="text"] , .subscripe input[type="email"]{
+    border-radius:30px ;
+    background-color: #1E202B;
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    color: white;
+    border: none;
+
+}
+.find-location input[type="button"] , .subscripe input[type="button"] {
+    position: absolute;
+    
+    top: 5px;
+    right: 4px;
+    bottom: 5px;
+    padding: 0 40px;
+    border: none;
+    background: #009ad8;
+    
+    border-radius: 30px;
+    color: white;
+}
+
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+
+ h1.nav-title{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    
+  
+}
+small{
+    color: #ffffff;
+    font-size: 0.625rem;
+    font-weight: 300;
+
+}
+.nav a{
+    color: #ffffff;
+}
+
+.nav a.active{
+    color: #009AD8;
+    border: #009AD8 1px solid;
+    border-radius: 50px;
+}
+
+
+.nav a:hover{
+    color: #009AD8;
+    border: #009AD8 1px solid;
+    border-radius: 50px;
+}
+
+.today{
+    color: #ffffff;
+    
+}
+
+.header-color{
+    background-color: #2D303D;
+}
+
+.content-color{
+    background-color: #323544;
+}
+
+.head-color{
+    background-color: #222530;
+}
+.text-color{
+    background-color: #262936;
+}
+
+.weather-content .location{
+    color: #BFC1C8;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.weather-content  .degree{
+    color: #FFFFFF;
+    font-size: 5.625rem;
+    font-weight: 700;
+
+}
+.status , .dayTwoStatus , .dayThreeStatus{
+    color: #009AD8;
+    font-size: 0.875rem ;
+    font-weight: 300;
+}
+
+
+.vh-75{
+    height: 75vh;
+}
+
+.footer-content{
+    background-color: #262936;
+    position: relative;
+    /* padding: 50px 0; */
+    
+}
+.social-media a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+
+.social-media a:hover{
+    color: #FFFFFF;
+    background-color: #009ad8;
+
+
+}
