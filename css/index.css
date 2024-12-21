@@ -162,13 +162,13 @@ small{
 
 
 .vh-75{
-    height: 75vh;
+    height: 100%;
 }
 
 .footer-content{
     background-color: #262936;
     position: relative;
-    /* padding: 50px 0; */
+    padding: 50px 0;
     
 }
 .social-media a {
